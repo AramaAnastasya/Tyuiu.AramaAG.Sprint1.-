@@ -9,6 +9,6 @@ class Service : public ISprint1Task0V01
 {
 	virtual int Rezalt(int l, int w, int h) override
 	{
-		return 2 * h * (l + w);
+		return 2 * h * (l + w); 
 	}
 };
