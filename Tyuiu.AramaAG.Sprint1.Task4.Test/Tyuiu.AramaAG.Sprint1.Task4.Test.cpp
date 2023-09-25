@@ -12,8 +12,8 @@ namespace TyuiuAramaAGSprint1Task4Test
 		TEST_METHOD(TestMethod1)
 		{
 			ISprint1Task4* result = new Service();
-			int a = 5;
-			float c = result->Vibor(a);
+			float x = 5;
+			float c = result->Vibor(x);
 			Assert::AreEqual((float)-14.0, c);
 		}
 	};
